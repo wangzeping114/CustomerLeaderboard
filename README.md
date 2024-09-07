@@ -42,6 +42,7 @@ Customer Leaderboard API 是一个用于管理客户分数排名的服务。每�
 ```bash
 git clone https://github.com/wangzeping114/CustomerLeaderboard.git
 cd CustomerLeaderboard
+cd src
 ```
 
 ## 运行项目
