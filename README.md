@@ -40,8 +40,8 @@ Customer Leaderboard API 是一个用于管理客户分数排名的服务。每�
 ### 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/customer-leaderboard-api.git
-cd customer-leaderboard-api
+git clone https://github.com/wangzeping114/CustomerLeaderboard.git
+cd CustomerLeaderboard
 ```
 
 ## 运行项目
