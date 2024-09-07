@@ -34,7 +34,7 @@ Customer Leaderboard API 是一个用于管理客户分数排名的服务。每�
 
 ### 先决条件
 
-- [.NET 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0)
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Docker](https://www.docker.com/get-started)
 
 ### 克隆仓库
