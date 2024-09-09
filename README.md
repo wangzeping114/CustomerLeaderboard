@@ -80,3 +80,13 @@ docker rm leaderboard-api
 ```
 ## 贡献指南
 欢迎提交问题 (Issues) 和贡献代码 (Pull Requests)。如果你有任何改进建议，请随时联系我们。
+
+### Git 提交描述
+
+```plaintext
+feat: 优化排行榜服务的并发控制，使用 SemaphoreSlim 提升性能
+
+- 改进 LeaderboardService 中的并发控制，使用 SemaphoreSlim 替代传统锁机制，简化线程同步。
+- 确保 UpdateScoreAsync 和 GetCustomersByRankAsync 等方法在高并发场景下的线程安全。
+- 保持原有业务逻辑不变，同时提升了代码的可读性和维护性。
+- 为 LeaderboardService 添加单元测试用例，确保 UpdateScoreAsync 和 GetCustomersByRankAsync 的功能在不同场景下的正确性，覆盖高并发和边界情况。
